@@ -4,3 +4,13 @@ npm run dev
 
 // button
 npx shadcn-ui@latest add button
+
+route groups:
+putting () folder names within brackets makes it a router group and would not show in the
+routing within app
+
+
+// clerk authentication
+npm install @clerk/nextjs
+
+[[...sign-up]] // page helps clerk to load all it needs
