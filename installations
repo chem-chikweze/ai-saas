@@ -14,3 +14,19 @@ routing within app
 npm install @clerk/nextjs
 
 [[...sign-up]] // page helps clerk to load all it needs
+
+
+// keep only shadcn components in ui. good practise
+
+// sheets for mobile view of sidebar
+npx shadcn-ui@latest add sheet
+
+
+// card for dashboard
+npx shadcn-ui@latest add card
+
+// form for conversation
+npx shadcn-ui@latest add form
+
+// input for form
+npx shadcn-ui@latest add input
