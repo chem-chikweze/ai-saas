@@ -30,3 +30,7 @@ npx shadcn-ui@latest add form
 
 // input for form
 npx shadcn-ui@latest add input
+
+
+// open ai
+npm i openai
