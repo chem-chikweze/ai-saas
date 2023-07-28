@@ -34,3 +34,6 @@ npx shadcn-ui@latest add input
 
 // open ai
 npm i openai
+
+// axios
+npm i axios

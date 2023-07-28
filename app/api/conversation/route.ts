@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
-  apiKey: "process.env.OPEN_AI_KEY",
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 const openai = new OpenAIApi(configuration);
@@ -15,7 +15,7 @@ export async function POST(req: Request) {
     const { messages } = body;
 
     if (!userId) {
-      return new NextResponse("Unauthorized", { status: 401 });
+      return new NextResponse("Unauthorized User", { status: 401 });
     }
 
     if (!configuration.apiKey) {
